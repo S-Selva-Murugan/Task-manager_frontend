@@ -37,7 +37,7 @@ const EditTodoForm = (props) => {
 
     return (
         <div>
-            <form onSubmit={handleSubmit}>
+            <form onSubmit={handleSubmit} style={{width:"200px", marginLeft:"100px"}}>
                 <label>
                     Title
                     <input type="text" value={todo.title} name="title" onChange={handleChange} />
